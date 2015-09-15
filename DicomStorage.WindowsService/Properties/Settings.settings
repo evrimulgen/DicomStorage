@@ -1,0 +1,47 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DicomStorage.WindowsService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">104</Value>
+    </Setting>
+    <Setting Name="StorageBaseDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">U:\DICOM\Хранилище</Value>
+    </Setting>
+    <Setting Name="ImportBaseDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">U:\DICOM\Импорт</Value>
+    </Setting>
+    <Setting Name="OptionsList" Type="DicomStorage.WindowsService.ServerOptionsList" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfServerOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ServerOptions&gt;
+    &lt;ServerName&gt;FLUO&lt;/ServerName&gt;
+    &lt;StorageDir&gt;Флюорография&lt;/StorageDir&gt;
+    &lt;ImportDir&gt;Флюорография&lt;/ImportDir&gt;
+    &lt;ActionName&gt;Флюорография&lt;/ActionName&gt;
+    &lt;Codepage&gt;1251&lt;/Codepage&gt;
+  &lt;/ServerOptions&gt;
+  &lt;ServerOptions&gt;
+    &lt;ServerName&gt;MAMMO&lt;/ServerName&gt;
+    &lt;StorageDir&gt;Маммография&lt;/StorageDir&gt;
+    &lt;ImportDir&gt;Маммография&lt;/ImportDir&gt;
+    &lt;ActionName&gt;Маммография&lt;/ActionName&gt;
+    &lt;Codepage&gt;0&lt;/Codepage&gt;
+  &lt;/ServerOptions&gt;
+  &lt;ServerOptions&gt;
+    &lt;ServerName&gt;RENTGEN&lt;/ServerName&gt;
+    &lt;StorageDir&gt;Рентген&lt;/StorageDir&gt;
+    &lt;ImportDir&gt;Рентген&lt;/ImportDir&gt;
+    &lt;ActionName&gt;Рентген&lt;/ActionName&gt;
+    &lt;Codepage&gt;0&lt;/Codepage&gt;
+  &lt;/ServerOptions&gt;
+&lt;/ArrayOfServerOptions&gt;</Value>
+    </Setting>
+    <Setting Name="QueueNameList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;DicomCatalog&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
